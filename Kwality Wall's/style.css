@@ -1,0 +1,125 @@
+.main1{
+    background-color: #DE2727;
+}
+.main1-sub1{
+    width: 100vw;
+    height: 82vh;
+    background-image: url('https://assets.unileversolutions.com/v1/106488930.jpg');
+    background-size: cover;
+}
+.log{
+    /* height: 180px;
+    width: 180px; */
+    /* margin-bottom: 100px; */
+    position: absolute;
+    bottom: -5px;
+    left: 20px;
+}
+.form{
+    position: relative;
+    left: 60px;
+}
+.ul{
+    position: relative;
+    left: 50px;
+}
+.icon1{
+    position: relative;
+    right: 30px;
+    top: 8.2px;
+}
+.i4{
+    border-radius: 25px;
+    background-image: url('https://assets.unileversolutions.com/v1/115638672.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-right:0px; */
+    width: 241.5px;
+}
+.i5{
+    border-radius: 25px;
+    background-image: url('https://assets.unileversolutions.com/v1/115638670.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-right:0px; */
+    /* width: 50%; */
+    /* margin-left: 0px; */
+    border: 3px solid;
+}
+.i-5{
+    border-radius: 25px;
+    background-image: url('https://assets.unileversolutions.com/v1/115638681.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* margin-right:0px; */
+}
+
+.i-6{
+    border-radius:50px;
+    background-image: url('https://assets.unileversolutions.com/v1/1862794.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 245px;
+    width: 245px;
+    /* margin-right:0px; */
+}
+.z1{
+    border: 2px solid;
+    /* width: 500px; */
+    height: 500px;
+}
+.r1{
+    border: 2px solid ;
+}
+.rs-1{
+    border: 2px solid red;
+    background-image: url('https://assets.unileversolutions.com/v1/94843726.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.rs-2{
+    border: 2px solid red;
+    background-image: url('https://assets.unileversolutions.com/v1/82106849.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.rs-3{
+    border: 2px solid red;
+    background-image: url('https://assets.unileversolutions.com/v1/93223898.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hov{
+    border: 2px solid white;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+}
+.hov:hover{
+    background-color: #B83232;
+    transition: 1.3s;
+    border: 2px solid white;
+    width: 250px;
+    height: 70px;
+    border-radius: 50px;
+}
+.n-1:hover{
+    display: none;
+    background-color: blue;
+}
+.hov1:hover{
+    color:red;
+    /* text-decoratio:red underline;/ */
+    border-bottom: 3px solid #DE2727;
+    transition: 0.2s;
+}
+
+
+
