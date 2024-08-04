@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family:'Times New Roman', Times, serif;
+}
+.nav-item {
+  margin: 0% 3% 0% 3%;
+  font-size: 22px;
+}
+#nav {
+  width: 15%;
+  /* border: 1px solid white; */
+  display: flex;
+  margin-left: 25px;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  background-color: white;
+}
+body {
+  background-image: url(Img/bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.heading {
+  height: 300px;
+}
+.hbtn {
+  width: 180px;
+  height: 55px;
+  border: none;
+  border-radius: 5px;
+}
+#about {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+}
+li::marker{
+  color: #2C9A8B;
+}
+.abli{
+  color: #BCBDC1;
+  font-size: 16px;
+}
+.Portfolio a{
+  color: white;
+  font-weight: 600 ;
+}
+.Portfolio a:hover{
+  color: #2C9A8B;
+}
+#portp{
+  font-size: 27px;
+  color: white;
+  /* word-spacing: -2px; */
+}
+.portnav{
+  word-spacing: 25px;
+  font-size: 18px;
+  text-transform:uppercase;
+  font-weight: 700;
+}
+#one
+{
+  width: 350px;
+  margin-top: 24px;
+}
+#two{
+  width: 350px;
+  height: 225px;
+}
+#spcialimg1
+{
+  width: 325px;
+  height: 325px;
+  margin: 50px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+#spcialimg2
+{
+  width: 250px;
+  height: 280px;
+  margin-top: 225px;
+}
+.form-label{
+  font-size: 18px;
+  color: white;
+}
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25rem;
+  padding: 2.5rem;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.625rem;
+}
+
+.box h2 {
+  margin: 0 0 1.875rem;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.inputBox {
+  position: relative;
+}
+
+.inputBox input {
+  width: 95%;
+  padding: 0.625rem 0;
+  font-size: 1rem;
+  color: #BCBDC1;
+  letter-spacing: 0.062rem;
+  margin-bottom: 1.875rem;
+  border: none;
+  border-bottom: 0.065rem solid #BCBDC1;
+  outline: none;
+  background: transparent;
+}
+
+.inputBox label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.625rem 0;
+  font-size: 1.3rem;
+  color: #BCBDC1;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.inputBox input:focus ~ label,
+.inputBox input:valid ~ label,
+.inputBox input:not([value=""]) ~ label {
+  top: -1.125rem;
+  left: 0;
+  color: #BDBEC2;
+  font-size: 0.95rem;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #1cb1f5;
+}
